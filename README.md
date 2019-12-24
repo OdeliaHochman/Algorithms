@@ -15,7 +15,7 @@ Otherwise, the algorithm will calculate the medians and the returned value will 
 
 2. Transpose
 
- P = Transpose(b,e)
+P = Transpose(b,e)
  
 The algorithm receives an iterator b to the beginning of the container and an iterator e to the end of the container.
 The algorithm switches between two adjacent organs, between organ 0 and organ 1, between organ 2 and organ 3, and so on.
