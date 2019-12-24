@@ -16,6 +16,7 @@ Otherwise, the algorithm will calculate the medians and the returned value will 
 
 
 
+
 2. Transpose
 
 P = Transpose(b,e)
@@ -24,6 +25,7 @@ The algorithm receives an iterator b to the beginning of the container and an it
 The algorithm switches between two adjacent organs, between organ 0 and organ 1, between organ 2 and organ 3, and so on.
 If the number of organs is not even, the last one will not be replaced.
 The algorithm returns the iterator e if the number of organs is even, otherwise returns e - 1.
+
 
 
 
